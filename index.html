@@ -10,7 +10,7 @@
   <!-- Bootstrap -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <!-- Slick-Carousel -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="resources\css\slick.css"/>
   <!-- Custom stylesheet -->
   <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
 </head>
@@ -19,16 +19,189 @@
 
 <!-- Header Section -->
 <header>
-	<nav></nav>
+	<nav class="nav navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="active"><a href="#">Explore</a></li>
+        <li><a href="#">Start a project</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right navbar-collapse collapse" role="navigation">
+        <li><a href="#"><img src="resources\images\logo.png"/></a></li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
 <!-- Main Content -->
 
 <main>
-	<section></section>
-	<section></section>
-	<section></section>
-	<section></section>
+
+  <!-- Presentation/jumbotron section -->
+
+  <section id="presentation">
+    <div class="carousel">
+
+      <div class="jumbotron jumbotron-bike text-center">
+        <div class="wrap">
+          <h1>GET GOING.</h1>
+          <p>Jumpstart your startup with some crowdsourced seed money,
+            or support one of our 300,000,000+ creators and get rewards.</p>
+          <div type="button" class="btn btn-lg btn-primary">
+              Jump In
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-beer text-center">
+        <div class="wrap">
+          <h1>GET THINKING.</h1>
+          <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+          <div type="button" class="btn btn-lg btn-primary">
+              Jump In
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-duffel text-center">
+        <div class="wrap">
+          <h1>GET CREATING.</h1>
+          <p>Stop overthinking projects and begin putting them out into the world.</p>
+          <div type="button" class="btn btn-lg btn-primary">
+              Jump In
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-flowers text-center">
+        <div class="wrap">
+          <h1>GET STARTED.</h1>
+          <p>What are you waiting for? Today's the day for your next big idea.</p>
+          <div type="button" class="btn btn-lg btn-primary">
+              Jump In
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- Featured section -->
+
+	<section id="featured">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Featured project</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="img-container">
+            <a href="#"><img src="resources\images\featured-project.png"></a>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <h3>DeFrost: A Documentary</h3>
+          <p>by Leo De Firenze</p>
+          <p>DeFrost is a documentary about growing up in a
+            little red house in a cold, harsh valley. This is
+            a story about my mother's childhood. This film attempts
+            to capture vignettes of her upbringing and her family,
+            friends, pets, and eventual depature from a freezing
+            valley in Northern Italy and through beautiful cinematography
+            and narration.</p>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <h3>Product Categories</h3>
+          <ul>
+            <li><a href="#">Art</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Crystals</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Doodles</a></li>
+            <li><a href="#">Deedlybobs</a></li>
+            <li><a href="#">Farming</a></li>
+            <li><a href="#">Gadgets</a></li>
+            <li><a href="#">Hoverboards</a></li>
+            <li><a href="#">Jams, Jellies, Etc.</a></li>
+            <li><a href="#">Magazines</a></li>
+            <li><a href="#">Plants</a></li>
+            <li><a href="#">Snakes & Snake Equipment</a></li>
+            <li><a href="#">Tables</a></li>
+            <li><a href="#">Ventriquilist Figures</a></li>
+            <li><a href="#">Yoyos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Projects section -->
+
+	<section id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="img-container">
+            <a href="#"><img src="resources\images\project1.png"/></a>
+          </div>
+          <h3>The Right Tights</h3>
+          <p>by Riley Mae</p>
+          <p>These tights are 50 denier, beautifully
+            constructed, hand-dyed, and guaranteed
+            to last (no more ladders!). Made with
+            high quality, completely toxic-free
+            materials. Custom colors available
+            to all backers.</p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="img-container">
+            <a href="#"><img src="resources\images\project2.png"/></a>
+          </div>
+          <h3>Peppermint Smart Home</h3>
+          <p>by Brian McDonald</p>
+          <p>Instantly upgrade your home
+            with technology that keeps your
+            family and home safe. We've made
+            Peppermint easy to use. Just talk
+            to your phone and Peppermint will
+            help you every step of the way.</p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="img-container">
+            <a href="#"><img src="resources\images\project3.png"/></a>
+          </div>
+          <h3>American Streetlife</h3>
+          <p>by Patrick Wallace</p>
+          <p>I've been traveling around the
+            United States for the past two
+            years. I've slept on hundreds of
+            couches, more than a few benches,
+            and captured my experiences in this
+            120 page photo album.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- Learn more section -->
+	<section id="learnmore">
+    <div class="wrap-learnmore text-center">
+      <h1>Having trouble thinking of an idea</h1>
+      <p>Inventor's block strikes at the worst
+        times. But that's all changed with Jumpstart's
+        Good Idea Generator Lite (GIGLi).</p>
+        <div class="btn btn-lg btn-primary">
+          Learn More
+        </div>
+    </div>
+  </section>
 </main>
 
 <!-- Footer Section -->
@@ -38,7 +211,7 @@
   <!-- Compiled and minified jQuery v 3.3.1 -->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <!-- Slick minified JS -->
-  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
+  <script type="text/javascript" src="resources\js\slick.min.js"></script>
   <!-- Latest compiled and minified Bootstrap JavaScript for plugins-->
   <script src="resources\js\main.js"></script>
 </body>
